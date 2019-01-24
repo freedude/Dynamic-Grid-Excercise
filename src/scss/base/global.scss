@@ -1,0 +1,26 @@
+
+.topnav {
+    background-color: $primary;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.fc-section {
+    margin-top: 1rem;
+}
+
+.fc-inner {
+    width: 88%;
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    @include clearfix();
+}
