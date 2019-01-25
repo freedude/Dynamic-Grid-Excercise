@@ -4,7 +4,9 @@ These notes will be read by HubSpot developers. Drop us a line!
 
 ## Given more time, what would you have done differently?
 
-_your answer here_
+1. Apply Filters
+2. Implemet FlexBox style grid
+
 
 ## Is there anything else you'd like to let us know?
 
