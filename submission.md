@@ -6,7 +6,9 @@ These notes will be read by HubSpot developers. Drop us a line!
 
 1. Apply Filters
 2. Implemet FlexBox style grid
-
+3. Sourcemaps
+4. Use ES6 classes
+5. Use Axios Library or Fetch API for API call
 
 ## Is there anything else you'd like to let us know?
 

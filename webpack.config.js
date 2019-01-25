@@ -1,13 +1,15 @@
 /* eslint-disable linebreak-style */
 // eslint-disable-next-line linebreak-style
+
 // Webpack v4
+/* eslint-disable no-undef */
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: "./src/js/index.js",
     output: {
-        path: __dirname + "/dist",
+        path: __dirname + "/build",
         publicPath: "",
         filename: "assets/js/main.js"
     },

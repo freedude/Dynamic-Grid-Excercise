@@ -10,9 +10,8 @@ $serif: 'Roboto Slab',serif;
 
 // Devices --------------------------------//
 
-$mobile: 320px;
-$mobile-medium: 375px;
-$mobile-large: 425px;
+// Setting iPhone 6 size as minimum
+$mobile: 375px;
+$mobileLarge: 425px;
 $tablet: 768px;
 $laptop: 1024px;
-$laptop-large: 1440px;

@@ -1,8 +1,10 @@
+// Scss for filterable-content.ejs
 .fc-filter {
     padding: 2rem 0;
     border: 1px solid gray;
     margin: 2% 5%;
 }
+
 .fc-filter--row {
     @include clearfix();
 }
@@ -58,18 +60,7 @@
         }
     }
 
-    &.is-open {
-        .fc-choice--dropdown {
-            opacity: 1;
-            transform: translateY(0);
-            visibility: visible;
-            transition-duration: 0.5s;
-            transition-delay: 0s;
-        }
-    }
 }
-
-
 
 // Search Bar
 .fc-filter--search {
@@ -170,9 +161,7 @@
      width: 100%; 
 }
 
-
 .fc-mediaitem--info {
-  padding-top: 1em;
   padding-bottom: 1em;
 
   h3 {
@@ -187,12 +176,28 @@
 }
 
 // Device Specific Styling
-@media (min-width: $mobile) and (max-width: $mobile-large) {
+@media (min-width: $mobile) and (max-width: $mobileLarge) {
+    .fc-mediaitem--info {
+        h3 {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fc-filter--search {
+        float:none;
+        margin-left:10%;
+        margin-bottom: 3%;
+    }
+    .fc-filter--search:before {
+        top: 50px;
+        right: 55px;    
+    }
+    .fc-filter--choice:first-of-type {
+        margin-right: 20%;
+    }
+    
 
     
 }
 
-@media (min-width: $mobile-large) and (max-width: $laptop-large) {
-
-}
 
