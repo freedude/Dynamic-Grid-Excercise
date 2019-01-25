@@ -36,4 +36,8 @@ I really enjoyed completing this code challenge despite not getting everything a
 
 I am glad that I was well able to setup Webpack without any trouble and feel like I brought both excercises very close style wise to the Mockup images in the time I ha!
 
+<<<<<<< HEAD
 I'm very excited to get the chance to work on more projects like this with the team, I hope you like what I've done, thank's a million for the opportunity :)
+=======
+I'm very excited to get the chance to work on more projects like this with the team, I hope you like what I've done, thank's a million for the opportunity :)
+>>>>>>> 08915c4ebbddf51987977bc0317e3d22bf8d3033
