@@ -13,10 +13,11 @@
 
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
-        "no-undef": "error",
+        "no-undef": "warn",
         "no-console": "warn",
+        "no-unused-vars": 0,
         "quotes": [
             "warn",
             "double",
